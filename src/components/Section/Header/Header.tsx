@@ -94,7 +94,7 @@ const Header: React.FC = () => {
             LOGIN
           </Button>
         </CustomLink>
-        <Button
+        {/* <Button
           onClick={() => handleLinkClick(Prospectus)}
           variant="outlined"
           size="small"
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
         >
           <DownloadIcon style={{ color: "black" }} />
           PROSPECTUS
-        </Button>
+        </Button> */}
       </Box>
     </Box>
   );
@@ -131,11 +131,11 @@ const Header: React.FC = () => {
         {renderMenuItem("NEET UPDATES", "/neetupdates", handleLinkClick)}
         {renderMenuItem("APPLY NOW", "/apply-and-enroll", handleLinkClick)}
         {renderMenuItem("LOGIN", "/user/login", handleLinkClick)}
-        {renderMenuItem(
+        {/* {renderMenuItem(
           "PROSPECTUS",
           "/images/assets/SanakaProspectus.pdf",
           handleLinkClick
-        )}
+        )} */}
       </Box>
     </Drawer>
   );

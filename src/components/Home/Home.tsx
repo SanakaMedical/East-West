@@ -1,38 +1,41 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Box,
   Button,
   Typography,
   useMediaQuery,
   useTheme,
+  IconButton,
 } from "@mui/material";
-import { useEffect } from "react";
-import { IconButton } from "@mui/material";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const CarouselComponent = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const navigate = useNavigate();
 
-  // Static data built into the component
+  // Static data for slides
   const slides = [
     {
       id: 1,
       image:
         "https://eastwestedu.org/wp-content/uploads/2023/06/Building-Image.webp",
-      title: "Explore Amazing Destinations",
+      title: "Apply for a better career & bright future!",
       description:
-        "Discover breathtaking locations and unforgettable experiences",
+        "We offer a wide range of courses to help you achieve your dreams",
       buttonText: "Apply Now",
     },
     {
       id: 2,
       image:
         "https://eastwestedu.org/wp-content/uploads/2023/11/Nursing_Header3.webp",
-      title: "Adventure Tours",
-      description: "Embark on exciting adventures with expert guides",
+      title:
+        "East West Education Institute, is an altruistic initiative of East West Model School Education Society",
+      description:
+        "We offer a wide range of courses to help you achieve your dreams",
       buttonText: "Apply Now",
     },
   ];
@@ -54,7 +57,7 @@ const CarouselComponent = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
-  const goToSlide = (index: number) => {
+  const goToSlide = (index:any) => {
     setCurrentSlide(index);
   };
 
@@ -144,6 +147,7 @@ const CarouselComponent = () => {
               <Button
                 variant="contained"
                 size={isMobile ? "medium" : "large"}
+                onClick={() => navigate("/apply-and-enroll")}
                 sx={{
                   backgroundColor: "primary.main",
                   "&:hover": {
