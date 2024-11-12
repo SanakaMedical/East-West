@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   Container,
@@ -79,25 +78,28 @@ const AboutUs: React.FC = () => {
           gutterBottom
           style={{ color: "#3f51b5", marginBottom: "20px" }}
         >
-          Shri Ramkrishna Institute of Medical Sciences and Sanaka Hospitals
+          East West Education Institute
         </Typography>
         <Typography
           variant="body1"
           paragraph
           style={{ color: "#757575", fontSize: "1.1rem", lineHeight: "1.6" }}
         >
-          Established in September 2015, Shri Ramkrishna Institute of Medical
-          Sciences and Sanaka Hospitals (SRIMS & SH) is committed to serve the
-          underprivileged section of the society with State of the Art health
-          care with the motto of "Skill to heal, Spirit to care." The medical
-          college has state-of-the-art Infrastructure along with a 385 bedded
-          Super Speciality Hospital in a lush green 20+ acre campus. Here, the
-          aspiring doctors will be trained not only in the latest medical knowledge
-          and skill, they will also develop leadership, compassion, and empathy
-          in health care. SRIMS & SH has been issued a Letter of Permission by the
-          Board of Governors in Suppression of Medical Council of India for
-          starting a Medical College with 150 annual intake for MBBS course
-          for the academic year 2019-2020.
+          East West Education Institute, is an altruistic initiative of East
+          West Model School Education Society which has already made a
+          significant contribution in the health care system of Burdwan and its
+          adjoining areas. The expansion of health care facilities, growing
+          complexity and advancement of medical technology have substantially
+          enhanced the requirement of nurses. It is worth mentionable here that
+          expansion of medical facilities through privatization has created a
+          great demand for GNM and B.Sc Nursing courses through which medical
+          care can be supported in a better way. So certainly, the venture of
+          this Nursing College and School will expand the scope of women for
+          joining a noble profession of nursing. The Nursing College and School
+          has commenced its first session from August/September 2020. The
+          paramedical College was established in the year 2021 and waiting for
+          its beginning. The B.Ed was instituted in the year 2013 and running
+          successfully with its full intake.
         </Typography>
         <Grid container spacing={4} mt={4} justifyContent="center">
           {teamMembers.map((member) => (
@@ -128,7 +130,11 @@ const AboutUs: React.FC = () => {
                 <Card style={{ backgroundColor: "#ffffff", maxWidth: "300px" }}>
                   <CardMedia
                     component="img"
-                    style={{ height: "auto", width: "auto", objectFit: "cover" }}
+                    style={{
+                      height: "auto",
+                      width: "auto",
+                      objectFit: "cover",
+                    }}
                     image={member.image}
                     alt={member.name}
                   />

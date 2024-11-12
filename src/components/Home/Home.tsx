@@ -20,33 +20,20 @@ const CarouselComponent = () => {
   const slides = [
     {
       id: 1,
-      image: "/api/placeholder/1200/600",
+      image:
+        "https://eastwestedu.org/wp-content/uploads/2023/06/Building-Image.webp",
       title: "Explore Amazing Destinations",
       description:
         "Discover breathtaking locations and unforgettable experiences",
-      buttonText: "Book Now",
+      buttonText: "Apply Now",
     },
     {
       id: 2,
-      image: "/api/placeholder/1200/600",
-      title: "Special Summer Packages",
-      description: "Enjoy exclusive deals on summer vacation packages",
-      buttonText: "View Deals",
-    },
-    {
-      id: 3,
-      image: "/api/placeholder/1200/600",
-      title: "Luxury Beach Resorts",
-      description:
-        "Experience world-class hospitality at premium beach locations",
-      buttonText: "Learn More",
-    },
-    {
-      id: 4,
-      image: "/api/placeholder/1200/600",
+      image:
+        "https://eastwestedu.org/wp-content/uploads/2023/11/Nursing_Header3.webp",
       title: "Adventure Tours",
       description: "Embark on exciting adventures with expert guides",
-      buttonText: "Start Journey",
+      buttonText: "Apply Now",
     },
   ];
 
