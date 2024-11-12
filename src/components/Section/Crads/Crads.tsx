@@ -15,7 +15,7 @@ import {
   CalendarMonth, 
   MenuBook, 
   Stars,
-  SvgIconComponent
+  // SvgIconComponent
 } from '@mui/icons-material';
 import { styled } from '@mui/material/styles';
 
@@ -35,7 +35,7 @@ interface HighlightCardProps {
 // Styled components with TypeScript
 const HighlightCard = styled(Card, {
   shouldForwardProp: (prop) => prop !== 'bgcolor'
-})<HighlightCardProps>(({ theme, bgcolor }) => ({
+})<HighlightCardProps>(({bgcolor }) => ({
   backgroundColor: bgcolor,
   color: '#fff',
   height: '100%',

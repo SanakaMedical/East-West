@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { restoreSession } from "./app/auth/authSlice";
 import { getSessionToken, getSessionUser } from "./utility/token";
 import LoadingComponent from "./components/Loading/Loading";
-import NotificationBar from "./components/Notification/Notification";
+// import NotificationBar from "./components/Notification/Notification";
 import MBBSPage from "./components/Section/Programs/MBBS";
 import BPharmacyPage from "./components/Section/Programs/B_PHARMA";
 import BScNursingPage from "./components/Section/Programs/BSC_NURSING";

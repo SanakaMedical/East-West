@@ -15,12 +15,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import PhoneIcon from "@mui/icons-material/Phone";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import CloseIcon from "@mui/icons-material/Close";
-import DownloadIcon from "@mui/icons-material/Download";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Logo from "../../../assets/images/BlackLogo.png";
 import CustomLink from "../CustomLink/Links";
 import { motion } from "framer-motion";
-import { Prospectus } from "../../../assets";
 
 // Utility function to avoid repetitive code
 const renderMenuItem = (
