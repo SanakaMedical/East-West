@@ -28,16 +28,6 @@ const CarouselComponent = () => {
         "We offer a wide range of courses to help you achieve your dreams",
       buttonText: "Apply Now",
     },
-    {
-      id: 2,
-      image:
-        "https://eastwestedu.org/wp-content/uploads/2023/11/Nursing_Header3.webp",
-      title:
-        "East West Education Institute, is an altruistic initiative of East West Model School Education Society",
-      description:
-        "We offer a wide range of courses to help you achieve your dreams",
-      buttonText: "Apply Now",
-    },
   ];
 
   useEffect(() => {
