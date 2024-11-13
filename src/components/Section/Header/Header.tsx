@@ -72,7 +72,7 @@ const Header: React.FC = () => {
         {renderMenuItem("RESEARCH", "/research", handleLinkClick)}
         {renderMenuItem("FACULTY", "/faculty", handleLinkClick)}
       </Menu>
-      {renderMenuItem("NEET UPDATES", "/neetupdates", handleLinkClick)}
+      {/* {renderMenuItem("NEET UPDATES", "/neetupdates", handleLinkClick)} */}
       <Box sx={{ marginLeft: "auto", display: "flex", gap: 1 }}>
         <CustomLink href="/apply-and-enroll">
           <Button
@@ -126,7 +126,7 @@ const Header: React.FC = () => {
             {renderMenuItem("FACULTY", "/faculty", handleLinkClick)}
           </Box>
         )}
-        {renderMenuItem("NEET UPDATES", "/neetupdates", handleLinkClick)}
+        {/* {renderMenuItem("NEET UPDATES", "/neetupdates", handleLinkClick)} */}
         {renderMenuItem("APPLY NOW", "/apply-and-enroll", handleLinkClick)}
         {renderMenuItem("LOGIN", "/user/login", handleLinkClick)}
         {/* {renderMenuItem(

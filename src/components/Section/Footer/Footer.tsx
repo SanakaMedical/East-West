@@ -60,7 +60,10 @@ const Footer: React.FC = () => {
               <img
                 src={SRIMS}
                 alt="Logo"
-                style={{ height: isMobile ? "40px" : "50px",borderRadius:'10px' }}
+                style={{
+                  height: isMobile ? "40px" : "50px",
+                  borderRadius: "10px",
+                }}
               />
             </Box>
             <Typography
@@ -142,7 +145,7 @@ const Footer: React.FC = () => {
               Email: contact@sanakamedical.com
             </Typography>
             <Typography variant="body2" gutterBottom color="#f0f0f0">
-              Phone: 90462 28190
+              Phone: 70441 89555
             </Typography>
             <Typography variant="body2" gutterBottom color="#f0f0f0">
               Address: Malandighi, Kanksha, Durgapur-713212, India
@@ -173,7 +176,7 @@ const Footer: React.FC = () => {
             <SocialIcon
               src={Whatsapp}
               alt="WhatsApp"
-              href="https://wa.me/+918017508002"
+              href="https://wa.me/+917044189555"
             />
             <SocialIcon
               src={Youtube}

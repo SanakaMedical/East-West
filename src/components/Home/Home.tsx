@@ -25,11 +25,10 @@ const CarouselComponent = () => {
         "https://eastwestedu.org/wp-content/uploads/2023/06/Building-Image.webp",
       title: "Apply for a better career & bright future!",
       description:
-        "We offer a wide range of courses to help you achieve your dreams",
+        "MBBS Admissions for the 2024 Session Now Open! Apply today to secure your spot in leading medical college.",
       buttonText: "Apply Now",
     },
   ];
-
   useEffect(() => {
     if (!isHovered) {
       const timer = setInterval(() => {
