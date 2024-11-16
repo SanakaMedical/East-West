@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
@@ -23,7 +23,7 @@ const WelcomePopup = () => {
       open={open}
       onClose={handleClose}
       maxWidth="md"
-      fullWidth
+      // fullWidth
       classes={{
         paper: "rounded-lg",
       }}
@@ -40,12 +40,14 @@ const WelcomePopup = () => {
           </IconButton>
         </DialogTitle>
         <DialogContent className="px-6 pb-6">
-          <div className="flex flex-col items-center space-y-4">
-            <div className="w-full flex justify-center">
+          <div className="flex flex-col items-center">
+            <div className=" flex justify-center  overflow-hidden">
               <img
                 src={invite}
+                height={300}
+                width={300}
                 alt="Welcome"
-                className="max-w-full h-auto max-h-[60vh] object-contain rounded-lg shadow-md"
+                className=" h-auto object-contain rounded-lg shadow-md"
               />
             </div>
           </div>
